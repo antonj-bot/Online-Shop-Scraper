@@ -1,2 +1,2 @@
 # OrangeApp-Scraper
-item scrapper for orangeapp
+product scraper for orangeapp
