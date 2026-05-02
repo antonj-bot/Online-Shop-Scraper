@@ -1,0 +1,644 @@
+2026-05-01 18:03:01,979 | INFO | ShopeePipeline | Application started
+2026-05-01 18:03:43,728 | INFO | ShopeePipeline | Application started
+2026-05-01 18:04:16,825 | INFO | ShopeePipeline | Application started
+2026-05-01 18:06:59,698 | INFO | ShopeePipeline | Application started
+2026-05-01 18:20:12,597 | INFO | ShopeePipeline | Application started
+2026-05-01 18:24:34,874 | INFO | ShopeePipeline | Application started
+2026-05-01 18:24:42,424 | INFO | ShopeePipeline | Application started
+2026-05-01 18:25:05,199 | INFO | ShopeePipeline | Application started
+2026-05-01 18:25:09,196 | WARNING | ShopeePipeline | Site Shopee not yet implemented
+2026-05-01 18:25:13,980 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: a
+2026-05-01 18:25:13,981 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='a', limit=20
+2026-05-01 18:26:33,320 | INFO | ShopeePipeline | Application started
+2026-05-01 18:27:35,688 | INFO | ShopeePipeline | Application started
+2026-05-01 18:27:35,729 | INFO | ShopeePipeline | Application started
+2026-05-01 18:27:43,820 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 18:27:43,820 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 18:29:10,556 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 18:29:10,556 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 18:29:30,860 | INFO | ShopeePipeline | Application started
+2026-05-01 18:29:30,901 | INFO | ShopeePipeline | Application started
+2026-05-01 18:29:35,997 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 18:29:35,998 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 18:30:44,103 | INFO | ShopeePipeline | Application started
+2026-05-01 18:30:44,130 | INFO | ShopeePipeline | Application started
+2026-05-01 18:30:51,564 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: a
+2026-05-01 18:30:51,565 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='a', limit=20
+2026-05-01 18:30:59,036 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\OrangeApp-Scraper\main.py", line 55, in ingest_with_playwright
+    name = item.query_selector("div[role='heading']").inner_text()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'inner_text'
+2026-05-01 18:30:59,773 | INFO | ShopeePipeline | Ingestion completed | records_collected=0
+2026-05-01 18:30:59,774 | INFO | ShopeePipeline | Scraped 0 items from Lazada
+2026-05-01 18:33:16,747 | INFO | ShopeePipeline | Application started
+2026-05-01 18:33:16,778 | INFO | ShopeePipeline | Application started
+2026-05-01 18:33:23,148 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 18:33:23,149 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 18:33:32,446 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:33:33,190 | INFO | ShopeePipeline | Ingestion completed | records_collected=0
+2026-05-01 18:33:33,191 | INFO | ShopeePipeline | Scraped 0 items from Lazada
+2026-05-01 18:35:31,065 | INFO | ShopeePipeline | Application started
+2026-05-01 18:35:31,089 | INFO | ShopeePipeline | Application started
+2026-05-01 18:35:35,020 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 18:35:35,021 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 18:35:41,935 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:35:42,413 | INFO | ShopeePipeline | Ingestion completed | records_collected=0
+2026-05-01 18:35:42,413 | INFO | ShopeePipeline | Scraped 0 items from Lazada
+2026-05-01 18:42:39,793 | INFO | ShopeePipeline | Application started
+2026-05-01 18:42:39,829 | INFO | ShopeePipeline | Application started
+2026-05-01 18:42:43,827 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 18:42:43,828 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 18:42:56,287 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,299 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,312 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,325 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,337 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,350 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,368 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,385 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,400 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,444 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,467 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,488 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,510 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,532 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,548 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,562 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,587 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,603 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,616 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:56,630 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:42:57,517 | INFO | ShopeePipeline | Ingestion completed | records_collected=0
+2026-05-01 18:42:57,518 | INFO | ShopeePipeline | Scraped 0 items from Lazada
+2026-05-01 18:43:51,089 | INFO | ShopeePipeline | Application started
+2026-05-01 18:43:51,117 | INFO | ShopeePipeline | Application started
+2026-05-01 18:43:55,963 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 18:43:55,964 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 18:44:06,430 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,446 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,459 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,474 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,486 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,501 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,513 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,526 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,539 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,552 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,561 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,573 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,587 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,600 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,612 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,626 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,637 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,650 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,662 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:06,674 | WARNING | ShopeePipeline | Product name selector not found, skipping item
+2026-05-01 18:44:07,350 | INFO | ShopeePipeline | Ingestion completed | records_collected=0
+2026-05-01 18:44:07,350 | INFO | ShopeePipeline | Scraped 0 items from Lazada
+2026-05-01 18:47:44,252 | INFO | ShopeePipeline | Application started
+2026-05-01 18:47:49,356 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 18:47:49,357 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 18:47:58,856 | INFO | ShopeePipeline | Ingestion completed | records_collected=20
+2026-05-01 18:47:58,856 | INFO | ShopeePipeline | Scraped 20 items from Lazada
+2026-05-01 18:49:17,995 | INFO | ShopeePipeline | Application started
+2026-05-01 18:49:25,913 | INFO | ShopeePipeline | Application started
+2026-05-01 18:49:25,958 | INFO | ShopeePipeline | Application started
+2026-05-01 18:49:33,523 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 18:49:33,524 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 18:49:59,695 | INFO | ShopeePipeline | Ingestion completed | records_collected=20
+2026-05-01 18:49:59,696 | INFO | ShopeePipeline | Scraped 20 items from Lazada
+2026-05-01 18:50:01,569 | INFO | ShopeePipeline | Exported 20 items to lazada_scrape_Hat.xlsx
+2026-05-01 18:52:53,365 | INFO | ShopeePipeline | Application started
+2026-05-01 18:52:53,400 | INFO | ShopeePipeline | Application started
+2026-05-01 18:53:00,067 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 18:53:00,068 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 18:53:12,795 | INFO | ShopeePipeline | Ingestion completed | records_collected=20
+2026-05-01 18:53:12,796 | INFO | ShopeePipeline | Scraped 20 items from Lazada
+2026-05-01 18:53:13,518 | INFO | ShopeePipeline | Exported 20 items to lazada_scrape_hat.xlsx (sorted by reviews)
+2026-05-01 18:55:26,358 | INFO | ShopeePipeline | Application started
+2026-05-01 18:55:26,391 | INFO | ShopeePipeline | Application started
+2026-05-01 18:55:32,812 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 18:55:32,813 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 18:55:45,497 | INFO | ShopeePipeline | Ingestion completed | records_collected=20
+2026-05-01 18:55:45,499 | INFO | ShopeePipeline | Scraped 20 items from Lazada
+2026-05-01 18:55:45,626 | INFO | ShopeePipeline | Exported 20 items to lazada_scrape_Hat.xlsx (sorted by reviews)
+2026-05-01 19:16:31,410 | INFO | ShopeePipeline | Application started
+2026-05-01 19:16:39,483 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 19:16:39,484 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 19:16:52,083 | INFO | ShopeePipeline | User selected Shopee. Starting scrape for: hat
+2026-05-01 19:16:52,084 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 19:17:02,754 | INFO | ShopeePipeline | Application started
+2026-05-01 19:19:22,220 | INFO | ShopeePipeline | Application started
+2026-05-01 19:19:28,202 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 19:19:28,203 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 19:19:32,705 | INFO | ShopeePipeline | Application started
+2026-05-01 19:19:40,404 | INFO | ShopeePipeline | Application started
+2026-05-01 19:19:43,658 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 19:19:43,659 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 19:19:48,113 | INFO | ShopeePipeline | Application started
+2026-05-01 19:21:23,402 | INFO | ShopeePipeline | Application started
+2026-05-01 19:21:26,930 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: hat
+2026-05-01 19:21:26,931 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='hat', limit=20
+2026-05-01 19:29:54,281 | INFO | ShopeePipeline | Application started
+2026-05-01 19:30:02,420 | INFO | ShopeePipeline | Application started
+2026-05-01 19:30:07,883 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 19:30:07,884 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 19:30:21,496 | INFO | ShopeePipeline | Ingestion completed | records_collected=20
+2026-05-01 19:30:21,496 | INFO | ShopeePipeline | Scraped 20 items from Lazada
+2026-05-01 19:30:27,649 | INFO | ShopeePipeline | Application started
+2026-05-01 19:32:26,634 | INFO | ShopeePipeline | Application started
+2026-05-01 19:32:31,394 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: Hat
+2026-05-01 19:32:31,395 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='Hat', limit=20
+2026-05-01 19:32:45,147 | INFO | ShopeePipeline | Application started
+2026-05-02 18:22:18,521 | INFO | ShopeePipeline | Application started
+2026-05-02 18:22:56,815 | INFO | ShopeePipeline | Application started
+2026-05-02 18:36:50,013 | INFO | ShopeePipeline | Application started
+2026-05-02 18:45:59,383 | INFO | ShopeePipeline | Application started
+2026-05-02 18:58:37,068 | INFO | ShopeePipeline | Application started
+2026-05-02 18:59:03,878 | INFO | ShopeePipeline | Application started
+2026-05-02 18:59:47,970 | INFO | ShopeePipeline | Application started
+2026-05-02 19:00:54,218 | INFO | ShopeePipeline | Application started
+2026-05-02 19:01:23,105 | INFO | ShopeePipeline | Application started
+2026-05-02 19:02:11,115 | INFO | ShopeePipeline | Application started
+2026-05-02 19:03:45,973 | INFO | ShopeePipeline | Application started
+2026-05-02 19:04:23,168 | INFO | ShopeePipeline | Application started
+2026-05-02 19:13:00,656 | INFO | ShopeePipeline | Application started
+2026-05-02 19:13:35,401 | INFO | ShopeePipeline | Application started
+2026-05-02 19:13:49,138 | INFO | ShopeePipeline | Application started
+2026-05-02 19:14:02,480 | INFO | ShopeePipeline | Application started
+2026-05-02 19:15:03,936 | INFO | ShopeePipeline | Application started
+2026-05-02 19:16:16,195 | INFO | ShopeePipeline | Application started
+2026-05-02 19:18:40,011 | INFO | ShopeePipeline | Application started
+2026-05-02 19:23:40,334 | INFO | ShopeePipeline | Application started
+2026-05-02 19:25:33,005 | INFO | ShopeePipeline | Application started
+2026-05-02 19:26:37,437 | INFO | ShopeePipeline | Application started
+2026-05-02 19:27:02,883 | INFO | ShopeePipeline | Application started
+2026-05-02 19:27:17,638 | INFO | ShopeePipeline | Application started
+2026-05-02 19:27:39,462 | INFO | ShopeePipeline | Application started
+2026-05-02 19:29:36,993 | INFO | ShopeePipeline | Application started
+2026-05-02 19:33:54,406 | INFO | ShopeePipeline | Application started
+2026-05-02 19:34:09,116 | INFO | ShopeePipeline | Application started
+2026-05-02 19:34:43,185 | INFO | ShopeePipeline | Application started
+2026-05-02 20:25:19,044 | INFO | ShopeePipeline | Application started
+2026-05-02 20:25:24,581 | INFO | ShopeePipeline | Application started
+2026-05-02 20:25:38,300 | INFO | ShopeePipeline | Application started
+2026-05-02 20:25:38,338 | INFO | ShopeePipeline | Application started
+2026-05-02 20:25:46,718 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: RedHatSmall
+2026-05-02 20:26:03,318 | INFO | ShopeePipeline | Application started
+2026-05-02 20:26:11,478 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: RedHatSmall
+2026-05-02 20:26:14,102 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: RedHatSmall
+2026-05-02 20:26:26,183 | INFO | ShopeePipeline | Application started
+2026-05-02 20:29:59,641 | INFO | ShopeePipeline | Application started
+2026-05-02 20:30:08,782 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: RedHatSmall
+2026-05-02 20:30:11,317 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: RedHatSmall
+2026-05-02 20:30:13,872 | INFO | ShopeePipeline | Application started
+2026-05-02 20:31:44,483 | INFO | ShopeePipeline | Application started
+2026-05-02 20:31:52,246 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: RedHatSmall
+2026-05-02 20:31:52,248 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='RedHatSmall', limit=20
+2026-05-02 20:32:14,037 | INFO | ShopeePipeline | Application started
+2026-05-02 20:34:55,311 | INFO | ShopeePipeline | Application started
+2026-05-02 20:35:05,974 | INFO | ShopeePipeline | User selected Lazada. Starting scrape for: BlueHatMedium
+2026-05-02 20:35:05,975 | INFO | ShopeePipeline | Starting Playwright ingestion | keyword='BlueHatMedium', limit=20
+2026-05-02 20:35:21,478 | WARNING | ShopeePipeline | Product name or price selector not found, skipping item
+2026-05-02 20:35:21,604 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,645 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,687 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,704 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,716 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,729 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,749 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,762 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,772 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,783 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,796 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,810 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,822 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,836 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,848 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,863 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,879 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,893 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:21,906 | WARNING | ShopeePipeline | Failed to parse one item
+Traceback (most recent call last):
+  File "C:\Users\jerutaj0\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Desktop\Online-Shop- Scraper\main.py", line 81, in ingest_with_playwright
+    name_elem = item.query_selector(".RfADt a")
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 2941, in query_selector
+    self._sync(self._impl_obj.query_selector(selector=selector))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_element_handle.py", line 355, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jerutaj0\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.query_selector: Protocol error (DOM.describeNode): Cannot find context with specified id
+2026-05-02 20:35:22,809 | INFO | ShopeePipeline | Ingestion completed | records_collected=0
+2026-05-02 20:35:22,809 | INFO | ShopeePipeline | Scraped 0 items from Lazada
+2026-05-02 20:35:30,748 | INFO | ShopeePipeline | Application started
+2026-05-02 20:48:41,704 | INFO | ShopeePipeline | Application started
+2026-05-02 20:52:00,973 | INFO | ShopeePipeline | Application started
+2026-05-02 20:53:18,559 | INFO | ShopeePipeline | Application started
+2026-05-02 20:53:40,861 | INFO | ShopeePipeline | Application started
+2026-05-02 20:56:39,939 | INFO | ShopeePipeline | Application started
+2026-05-02 20:56:43,716 | INFO | ShopeePipeline | Application started
+2026-05-02 20:58:45,820 | INFO | ShopeePipeline | Application started
+2026-05-02 20:58:51,931 | INFO | ShopeePipeline | Application started
+2026-05-02 20:59:37,773 | INFO | ShopeePipeline | Application started
+2026-05-02 20:59:44,038 | INFO | ShopeePipeline | Application started
+2026-05-02 21:00:00,712 | INFO | ShopeePipeline | Application started
+2026-05-02 21:00:19,193 | INFO | ShopeePipeline | Application started
+2026-05-02 21:00:39,211 | INFO | ShopeePipeline | Application started
+2026-05-02 21:00:42,963 | INFO | ShopeePipeline | Application started
+2026-05-02 21:00:53,881 | INFO | ShopeePipeline | Application started
+2026-05-02 21:01:07,090 | INFO | ShopeePipeline | Application started
+2026-05-02 21:01:23,945 | INFO | ShopeePipeline | Application started
+2026-05-02 21:01:40,241 | INFO | ShopeePipeline | Application started
+2026-05-02 21:02:18,454 | INFO | ShopeePipeline | Application started
+2026-05-02 21:02:36,672 | INFO | ShopeePipeline | Application started
+2026-05-02 21:02:48,592 | INFO | ShopeePipeline | Application started
+2026-05-02 21:03:12,552 | INFO | ShopeePipeline | Application started
+2026-05-02 21:03:27,107 | INFO | ShopeePipeline | Application started
+2026-05-02 21:03:40,225 | INFO | ShopeePipeline | Application started
+2026-05-02 21:04:05,392 | INFO | ShopeePipeline | Application started
+2026-05-02 21:05:21,956 | INFO | ShopeePipeline | Application started
+2026-05-02 21:05:45,593 | INFO | ShopeePipeline | Application started
+2026-05-02 21:06:21,610 | INFO | ShopeePipeline | Application started
+2026-05-02 21:06:46,647 | INFO | ShopeePipeline | Application started
+2026-05-02 21:07:01,770 | INFO | ShopeePipeline | Application started
+2026-05-02 21:07:17,892 | INFO | ShopeePipeline | Application started
+2026-05-02 21:09:45,008 | INFO | ShopeePipeline | Application started
+2026-05-02 21:10:20,195 | INFO | ShopeePipeline | Application started
+2026-05-02 21:10:30,346 | INFO | ShopeePipeline | Application started
+2026-05-02 21:11:48,010 | INFO | ShopeePipeline | Application started
+2026-05-02 21:14:35,899 | INFO | ShopeePipeline | Application started
+2026-05-02 21:15:05,423 | INFO | ShopeePipeline | Application started
