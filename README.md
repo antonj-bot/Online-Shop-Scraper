@@ -1,2 +1,1 @@
-# OrangeApp-Scraper
-product scraper for orangeapp
+Online Shop Scraper
